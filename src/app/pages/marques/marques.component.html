@@ -1,24 +1,98 @@
-<div>
-  <table class="bg-ghost-white">
-    <thead>
-    <tr class="flex justify-center items-center gap-20 border text-4xl">
-      <th scope="col">ID</th>
-      <th scope="col">Nom</th>
-      <th scope="col">Image</th>
-    </tr>
-    </thead>
+<div class="flex flex-col justify-center items-center my-auto gap-5">
+<!--  <div class="rounded-lg border-black border">-->
+<!--    <input class="p-3 rounded-lg" placeholder="Rechercher">-->
+<!--  </div>-->
+<!--  <table class="bg-ghost-white border border-black rounded-lg">-->
+<!--    <thead>-->
+<!--    <tr class="">-->
+<!--      <th scope="col">ID</th>-->
+<!--      <th scope="col">Nom</th>-->
+<!--      <th scope="col">Image</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
 
-    <tbody>
-    <tr>
-      <th scope="row">Data1</th>
-      <td>Data1</td>
-      <td>Data1</td>
-    </tr>
-    <tr>
-      <th scope="row">Data2</th>
-      <td>Data2</td>
-      <td>Data2</td>
-    </tr>
-    </tbody>
-  </table>
+<!--    <tbody>-->
+<!--    <tr class="">-->
+<!--      <th scope="row">Data1</th>-->
+<!--      <td>Data1</td>-->
+<!--      <td>Data1</td>-->
+<!--    </tr>-->
+<!--    <tr class="">-->
+<!--      <th scope="row">Data2</th>-->
+<!--      <td>Data2</td>-->
+<!--      <td>Data2</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--  </table>-->
+
+
+
+  <div class="relative overflow-x-auto rounded-lg">
+    <table class="w-full text-sm text-left text-white rtl:text-right">
+      <thead class="text-xl uppercase bg-gradient-to-b from-custom-pink from-20%  to-dark-blue to-100%">
+      <tr>
+        <th scope="col" class="px-6 py-3">
+          ID
+        </th>
+        <th scope="col" class="px-6 py-3">
+          Nom
+        </th>
+        <th scope="col" class="px-6 py-3">
+          Image
+        </th>
+        <th scope="col" class="px-6 py-3">
+          Action
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="border-b bg-dark-blue dark:border-gray-700 hover:bg-primary-color hover:bg-opacity-80 duration-300">
+        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+          Apple MacBook Pro 17"
+        </th>
+        <td class="px-6 py-4">
+          Silver
+        </td>
+        <td class="px-6 py-4">
+          Laptop
+        </td>
+        <td class="flex justify-around items-center px-6 py-4 text-xl">
+          <i class="fa-solid fa-pencil text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+          <i class="fa-solid fa-trash text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+        </td>
+      </tr>
+      <tr class="bg-dark-blue border-b dark:border-gray-700 hover:bg-primary-color hover:bg-opacity-80 duration-300">
+        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+          Microsoft Surface Pro
+        </th>
+        <td class="px-6 py-4">
+          White
+        </td>
+        <td class="px-6 py-4">
+          Laptop PC
+        </td>
+        <td class="flex justify-around items-center px-6 py-4 text-xl">
+          <i class="fa-solid fa-pencil text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+          <i class="fa-solid fa-trash text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+        </td>
+      </tr>
+      <tr class="bg-dark-blue hover:bg-primary-color hover:bg-opacity-80 duration-300">
+        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+          Magic Mouse 2
+        </th>
+        <td class="px-6 py-4">
+          Black
+        </td>
+        <td class="px-6 py-4">
+          Accessories
+        </td>
+        <td class="flex justify-around items-center px-6 py-4 text-xl">
+          <i class="fa-solid fa-pencil text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+          <i class="fa-solid fa-trash text-white hover:text-primary-color hover:text-opacity-80 duration-300 cursor-pointer"></i>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
 </div>
